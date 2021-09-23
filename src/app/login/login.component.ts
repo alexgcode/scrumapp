@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+
+//Reference to app.js login
+declare function addFocusBlurToInputs(): any;
 
 @Component({
   selector: 'app-login',
@@ -7,9 +10,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginComponent implements OnInit {
 
-  constructor() { }
+  constructor(private elementRef:ElementRef) { }
 
   ngOnInit(): void {
+    console.log("first");
+  }
+
+  ngAfterContentChecked():void{
+    
+    addFocusBlurToInputs();
+    console.log("second");
   }
 
 }
