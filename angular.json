@@ -34,7 +34,8 @@
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/@popperjs/core/dist/umd/popper.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "src/assets/login/js/app.js"
+              "src/assets/login/js/app.js",
+              "node_modules/atomic-bohr-model/dist/atomicBohrModel.min.js"
             ]
           },
           "configurations": {
@@ -106,7 +107,8 @@
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/@popperjs/core/dist/umd/popper.min.js",
-              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/atomic-bohr-model/dist/atomicBohrModel.min.js"
             ]
           }
         }

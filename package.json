@@ -22,6 +22,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@popperjs/core": "^2.10.1",
+    "atomic-bohr-model": "^1.0.91",
     "bootstrap": "^5.1.1",
     "jquery": "^3.6.0",
     "rxjs": "~6.6.0",
